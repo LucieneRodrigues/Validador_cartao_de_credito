@@ -54,8 +54,9 @@ else:
 
     if lista[0] == 4:
         print('Visa')
-    elif lista[0][1] == 51 or lista[0][1] == 52 or lista[0][1] == 53 or lista[0][1] == 54 or lista[0][1] == 55:
-        print(' MasterCard')
+    elif lista[0] == 5 and lista[1] == 1 or lista[0] == 5 and lista[1] == 2 or lista[0] == 5 and lista[1] == 3 or lista[0] == 5 and lista[1] == 4 or lista[0] == 5 and lista[1] == 5:
+        print('MasterCard')
+
 
     else:
         print(' ')
